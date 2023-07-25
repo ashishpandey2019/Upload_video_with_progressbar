@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="PlayVideo.Page1"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    BackgroundColor="blue">
+    <ContentPage.Content>
+        <Grid RowDefinitions="auto,*">
+            <StackLayout
+                x:Name="skt"
+                Grid.Row="0"
+                Margin="50"
+                Padding="20"
+                IsVisible="true">
+                <Button
+                    x:Name="UploadButton"
+                    Clicked="UploadButton_Clicked"
+                    Text="Upload" />
+                <ProgressBar
+                    x:Name="ProgressBar"
+                    IsVisible="False"
+                    Progress="0"
+                    ProgressColor="Green" />
+
+                <Frame />
+
+
+            </StackLayout>
+
+            <StackLayout Grid.Row="1" Margin="10">
+
+                <Label
+                    FontSize="40"
+                    Text="Xamarin Forms"
+                    TextColor="Azure" />
+                <Label FontSize="58" Text="Video Player Application" />
+                <Button Clicked="Button_Clicked" Text=" DO" />
+
+
+                <WebView x:Name="webview" />
+
+            </StackLayout>
+
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

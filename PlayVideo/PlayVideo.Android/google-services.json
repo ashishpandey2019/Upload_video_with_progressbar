@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "102563319385",
+    "project_id": "fir-app-d90a8",
+    "storage_bucket": "fir-app-d90a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102563319385:android:17dfa08bf832ff41bceb48",
+        "android_client_info": {
+          "package_name": "com.companyname.playvideo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF1x3tr2Xau-WSCiG3_KPveHcHMBHpbZ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
